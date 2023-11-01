@@ -23,8 +23,9 @@ main > section {
   max-width: 375px;
 }
 
-.finch-container {
-  width: 80%;
+.logo-container img {
+  width: 100%;
+  border-radius: 8px;
 }
 
 .login {
@@ -69,7 +70,7 @@ main > section {
   }
 
   main > section {
-    width: 40%;
+    width: 45%;
   }
 
   .login {
@@ -81,6 +82,7 @@ main > section {
   }
 
   .logo-container {
-    max-width: 520px;
+    min-width: 520px;
+    max-width: 900px;
   }
 }

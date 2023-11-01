@@ -1,11 +1,17 @@
 {% extends "base.html" %}
+{% load static %}
 
 {% block content %}
+<div class="page-content about-section">
+  <h1>About the Finch Collector</h1>
+  <hr />
+  <p>Welcom to Finch Collector, the ultimate app for caring for your cute finches. Whether you're an experienced owner or new to the world of avian companionship, Finch Collector is here to make the journey enjoyable and worry-free. </p>
 
-<h1>About the Finch Collector</h1>
-<hr />
-<p class="page-content">
-  I like long romantic walks down the produce aisle. Also, I am currently job seeking!
-</p>
+  <p>Finches, with their vibrant plumage and delightful songs, deserve the best care. Finch Collector helps you track feeding habits, manage their health, and select toys and activities to enrich their lives. </p>
+  
+  <p>Join Finch Collector today and create a haven for your finches, where their health and happiness are top priorities. Every chirp, flutter, and hop is a treasure – let Finch Collector help you cherish it.</p>
+  
+  <img src="{% static "images/finches.jpg" %}" alt="a collection of finches" class='about-img'>
+</div>
 
 {% endblock %}

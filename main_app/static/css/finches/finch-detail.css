@@ -108,7 +108,7 @@
 }
 
 .subsection-title img {
-  height: 42px;
+  height: 80px;
   margin-left: 8px;
 }
 
@@ -199,6 +199,9 @@
     width: 25%;
     max-width: 250px;
     margin-right: 25px;
+  }
+  .finch-img img {
+    width: 100%;
   }
 
   .feedings-toy-container {

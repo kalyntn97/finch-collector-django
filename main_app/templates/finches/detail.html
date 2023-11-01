@@ -22,7 +22,7 @@
 {% block content %}
 <section class="finch-container">
   <div class="finch-img">
-    
+    <img src="{% static "images/finch-balloon.jpg" %}" alt="a cute finch">
   </div>
   <div class="finch-details">
     <h1>{{ finch.name }}</h1>
@@ -43,9 +43,7 @@
   <section class="feedings">
     <div class="subsection-title">
       <h2>Feedings</h2>
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
+      <img src="{% static "images/finch-cook.jpg" %}" alt="a finch grilling BBQ">
     </div>
     <h3>Add a Feeding</h3>
     <form action="{% url "add-feeding" finch.id %}" method="post" class='subsection-content' autocomplete='off'>
@@ -83,7 +81,8 @@
   <section class='toys'>
     <div class='subsection-title'>
       <h2>Toys</h2>
-      <img src="" alt="">
+      <img src="{% static "images/finch-house.svg" %}" alt="a finch house">
+      <img src="{% static "images/finch-swing.jpg" %}" alt="a finch swing">
     </div>
     <h3>{{ finch.name }}'s Toys</h3>
     <div class='subsection-content'>
