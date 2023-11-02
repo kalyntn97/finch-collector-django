@@ -37,10 +37,10 @@ body {
   --secondary: rgb(57, 57, 57);
   --card-box-shadow: 5px 5px 6px -1px #AAA;
   --font-xtreme: 4.2rem;
-  --font-xxl: 3.6rem;
-  --font-xl: 2.4rem;
-  --font-l: 1.8rem;
-  --font-reg: 1.6rem;
+  --font-xxl: 3.8rem;
+  --font-xl: 2.6rem;
+  --font-l: 2.0rem;
+  --font-reg: 1.8rem;
   --card-border-radius: 6px;
 }
 
@@ -172,6 +172,20 @@ nav li {
   font-size: var(--font-reg);
 }
 
+.about-section {
+  font-size: 1.3em;
+  width: 90%;
+  margin: auto;
+}
+
+.about-section p {
+  padding: 0.5em;
+}
+
+.about-section img {
+  width: 100%;
+}
+
 @media only screen and (min-width: 768px) {
   header {
     position: sticky;
@@ -224,6 +238,16 @@ nav li {
     margin-left: 25px;
   }
 
+  .about-section {
+    font-size: 2em;
+    width: 60%;
+    margin: auto;
+  }
+
+  .about-section p {
+    padding: 0.5em;
+  }
+
   @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
     header {
       background: var(--nav-bg);
@@ -272,20 +296,6 @@ nav li {
     width: 200px;
     position: absolute;
     inset: -10px auto auto -10px;
-  }
-
-  .about-section {
-    font-size: 2em;
-    width: 60%;
-    margin: auto;
-  }
-
-  .about-section p {
-    padding: 0.5em;
-  }
-
-  .about-section img {
-    width: 100%;
   }
 
   @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
